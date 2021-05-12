@@ -1,4 +1,3 @@
-// import React, { useEffect } from "react";
 import '../components/Card.css';
 import emailImg from '../assets/email.svg'
 import locationImg from '../assets/location.svg'
@@ -6,10 +5,6 @@ import phoneImg from '../assets/phone.svg'
 
 
 const Card = ({item}) => {
-
-    const handleClick =() => {
-        window.location.reload(false);
-    }
 
     return (
         <div className="card">
@@ -30,7 +25,7 @@ const Card = ({item}) => {
         
             <div className="register">{"Register Date: "}{item.registered.date.substr(0,10)}</div>
 
-            <button onClick={handleClick}>Random User</button>
+            {/* <button onClick={handleClick}>Random User</button> */}
            
         </div>
     );
