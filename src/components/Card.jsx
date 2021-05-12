@@ -24,8 +24,6 @@ const Card = ({item}) => {
             <div className="age">{"Age:"} {item.dob.age}</div>
         
             <div className="register">{"Register Date: "}{item.registered.date.substr(0,10)}</div>
-
-            {/* <button onClick={handleClick}>Random User</button> */}
            
         </div>
     );
