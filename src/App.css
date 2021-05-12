@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 20%;
+}
+
+.App {
+  margin: 50px auto auto auto;
+  width: 30rem;
+  height: 33rem;
+  border: 2px solid green;
+  background-image: radial-gradient(circle, white , aqua )
+}
+
